@@ -6,8 +6,7 @@ import pathlib
 
 
 class Training:
-    def __init__(self, dvclive, params):
-        self.dvclive = dvclive
+    def __init__(self, params):
         self.params = params
         self.model_filepath = params['model_filepath']
         self.batch_size = params['batch_size']
